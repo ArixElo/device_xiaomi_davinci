@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 ShapeShiftOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,6 +22,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
+
+# Inherit from MiuiCamera vendor
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
@@ -255,7 +258,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml
 
 # NFC
-
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
@@ -278,7 +280,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-statix
+    $(LOCAL_PATH)/overlay-ssos
 
 # Power
 PRODUCT_PACKAGES += \

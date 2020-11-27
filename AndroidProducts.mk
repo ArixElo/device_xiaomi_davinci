@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 ShapeShiftOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_davinci.mk
+    $(LOCAL_DIR)/ssos_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_davinci-user \
-    statix_davinci-userdebug \
-    statix_davinci-eng
+    ssos_davinci-user \
+    ssos_davinci-userdebug \
+    ssos_davinci-eng
+

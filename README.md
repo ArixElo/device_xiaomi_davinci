@@ -1,4 +1,5 @@
-Copyright (C) 2020 The LineageOS Project
+
+Copyright (C) 2020 ShapeShiftOS 
 
 Device configuration for Xiaomi Mi 9T/Redmi K20
 =========================================
