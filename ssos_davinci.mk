@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common ShapeShiftOS stuff.
 $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 TARGET_USES_BLUR := true
+SSOS_BUILD_TYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := ssos_davinci
 PRODUCT_DEVICE := davinci
