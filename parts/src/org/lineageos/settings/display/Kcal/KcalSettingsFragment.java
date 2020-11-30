@@ -61,8 +61,7 @@ public class KcalSettingsFragment extends PreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        private String option = preference.getKey();
-        switch(option){
+        switch(preference.getKey()){
             case "kcal_enable":
                 KcalUtils.writeConfigToNode(KcalUtils.KCAL_ENABLE_NODE, 0, (Boolean) newValue ? 1 : 0);
                 break;
