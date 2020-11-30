@@ -297,6 +297,11 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/ssos/prebuilt/common/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
