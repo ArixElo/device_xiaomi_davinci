@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_davinci.mk
+    $(LOCAL_DIR)/ssos_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_davinci-user \
-    dot_davinci-userdebug \
-    dot_davinci-eng
+    ssos_davinci-user \
+    ssos_davinci-userdebug \
+    ssos_davinci-eng
