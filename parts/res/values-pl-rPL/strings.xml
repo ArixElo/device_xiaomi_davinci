@@ -80,7 +80,7 @@
 
     <!-- Popup camera strings -->
     <string name="popup_camera_tip">Ostrzeżenie</string>
-    <string name="popup_camera_takeback_failed_calibrate">Nie można było schować przedniej kamery.Spróbuj kalibracji silnika.</string>
+    <string name="popup_camera_takeback_failed_calibrate">Nie można było schować przedniej kamery. Spróbuj kalibracji silnika.</string>
     <string name="popup_camera_popup_failed_calibrate">Nie można było otworzyć przedniej kamery. Spróbuj kalibracji silnika.</string>
     <string name="popup_camera_calibrate_running">Przednia kamera nie może być używana podczas kalibracji.</string>
     <string name="popup_camera_calibrate_now">Skalibruj</string>
