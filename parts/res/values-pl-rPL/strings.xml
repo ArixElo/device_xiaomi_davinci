@@ -86,3 +86,5 @@
     <string name="popup_camera_calibrate_now">Skalibruj</string>
     <string name="popup_camera_calibrate_failed">Nie można było skalibrować</string>
     <string name="popup_camera_calibrate_success">Skalibrowano pomyślnie. Możesz teraz otworzyć przednią kamerę.</string>
+</resources>
+
