@@ -86,5 +86,20 @@
     <string name="popup_camera_calibrate_now">Skalibruj</string>
     <string name="popup_camera_calibrate_failed">Nie można było skalibrować</string>
     <string name="popup_camera_calibrate_success">Skalibrowano pomyślnie. Możesz teraz otworzyć przednią kamerę.</string>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">Kolory wyświetlacza</string>
+    <string name="kcal_settings_summary">Dostosuj kolory swojego wyświetlacza</string>
+    <string name="kcal_enable_title">Włącz konfigurację kolorów wyświetlacza</string>
+    <string name="kcal_enable_summary">Umożliwia konfigurację kolorów wyświetlacza w celu ich niestandardowego dostosowania</string>
+    <string name="red_slider_title">Czerwony</string>
+    <string name="green_slider_title">Zielony</string>
+    <string name="blue_slider_title">Niebieski</string>    
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Kalibracja kolorów</string>
+    <string name="saturation_slider_title">Saturacja</string>
+    <string name="reset_default_button_title">Przywróć konfigurację domyślną</string>
+    <string name="reset_default_button_summary">Zresetuj wszystkie konfiguracje tego wyświetlacza</string>
+    <string name="contrast_slider_title">Kontrast</string>
 </resources>
 
