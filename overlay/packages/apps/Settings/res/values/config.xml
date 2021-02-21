@@ -1,4 +1,3 @@
-  
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,4 +14,7 @@
 
     <!-- Whether device has screen off FOD support -->
     <bool name="config_supportScreenOffFod">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">true</bool>
 </resources>
