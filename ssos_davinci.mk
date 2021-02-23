@@ -38,3 +38,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_FOD_ANIMATIONS := true
 
+# Inherit ShapeShiftOS common properties.
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.ssos.cpu=SD730
