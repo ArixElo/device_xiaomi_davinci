@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xosp_davinci.mk
+    $(LOCAL_DIR)/soni_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    xosp_davinci-user \
-    xosp_davinci-userdebug \
-    xosp_davinci-eng
+    soni_davinci-user \
+    soni_davinci-userdebug \
+    soni_davinci-eng

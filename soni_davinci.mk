@@ -26,9 +26,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/soni/config/common_full_phone.mk)
 
-PRODUCT_NAME := xosp_davinci
+PRODUCT_NAME := soni_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
@@ -36,5 +36,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# XOSP Official Tag
+# SoniUI Official Tag
 CUSTOM_BUILD_TYPE := OFFICIAL
