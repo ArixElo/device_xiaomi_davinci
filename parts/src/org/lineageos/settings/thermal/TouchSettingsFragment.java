@@ -22,7 +22,7 @@ import android.view.MenuItem;
 
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.widget.SeekBarPreference;

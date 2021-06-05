@@ -46,7 +46,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceFragmentCompat;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import android.os.SystemProperties;
 import android.widget.TimePicker;
 import androidx.preference.PreferenceManager;

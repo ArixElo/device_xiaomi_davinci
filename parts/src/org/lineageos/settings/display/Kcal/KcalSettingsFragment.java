@@ -27,7 +27,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SeekBarPreference;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.utils.FileUtils;

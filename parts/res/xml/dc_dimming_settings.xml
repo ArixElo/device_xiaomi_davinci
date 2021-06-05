@@ -19,7 +19,7 @@
         android:key="dc_dimming_title"
         android:title="dc_dimming_title">
 
-    <SwitchPreference
+    <com.ssos.support.preferences.SwitchPreference
         android:defaultValue="false"
         android:key="dc_dimming_enable"
         android:summaryOff="@string/dc_dimming_summary_off"

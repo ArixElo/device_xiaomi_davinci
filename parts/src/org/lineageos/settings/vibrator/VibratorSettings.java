@@ -2,7 +2,7 @@ package org.lineageos.settings.vibrator;
 
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
-import androidx.preference.SwitchPreference;
+import com.ssos.support.preferences.SwitchPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import android.content.Context;

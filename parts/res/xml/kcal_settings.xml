@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <SwitchPreference
+    <com.ssos.support.preferences.SwitchPreference
         android:key="kcal_enable"
         android:defaultValue="true"
         android:icon="@drawable/ic_kcal"
